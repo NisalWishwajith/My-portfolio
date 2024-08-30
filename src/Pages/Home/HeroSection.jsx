@@ -23,7 +23,7 @@ export default function HeroSection() {
             />
           </p>
           <p className="hero--section-description1">
-            Transforming ideas into resilient, high-performance web applications.
+            Transform ideas into resilient, high-performance web applications.
           </p>
         </div>
         <div className="pt-4 grid place-items-center md:flex grid-col-2 gap-4 md:justify-center lg:justify-start">
