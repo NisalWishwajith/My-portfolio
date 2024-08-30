@@ -1,0 +1,101 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "img1": "./img/html.svg",
+      "item1": "HTML",
+      "img2": "./img/css.svg", 
+      "item2": "CSS",
+      "img4": "./img/react.webp",
+      "item4": "React",
+      "img5": "./img/nextjs.svg",
+      "item5": "Next.js",
+      "img6": "./img/tailwindcss.png",
+      "item6": "Tailwind",
+      "img7": "./img/nextui.svg",
+      "item7": "Next UI",
+      "title": "Front-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "2",
+      "img1": "./img/php.png",
+      "item1": "PHP",
+      "img2": "./img/springboot.png",
+      "item2": "Springboot",
+      "img3": "./img/javascript.svg",
+      "item3": "JavaScript",
+      "title": "Back-End / Programming ",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "3",
+      "img1": "./img/figma.png",
+      "item1": "Figma",  
+      "title": "UI & UX Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "4",
+      "img1": "./img/git.png",
+      "item1": "Git",
+      "img2": "./img/docker.webp",
+      "item2": "Docker",
+      "img3": "./img/linux.svg",
+      "item3": "Linux",
+      "img4": "./img/github.png",
+      "item4": "Github",
+      "title": "DevOps",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/project1.png",
+      "title": "MedSupplyX",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/Ravindu62/MedSupplyX"
+    },
+    {
+      "id": "2",
+      "src": "./img/project2.png",
+      "title": "Aetha",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/Project-AETHA/aetha-backend"
+    },
+    {
+      "id": "3",
+      "src": "./img/project3.png",
+      "title": "Empower Laptop Reparing Shop",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/INpower-laptop/inpower-portfolio"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
