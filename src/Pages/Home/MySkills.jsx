@@ -7,19 +7,19 @@ export default function MySkills() {
 
         <h2 className="text-3xl font-bold">My Skills </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-10 md:px-20">
         {data?.skills?.map((item, index) => (
           <div key={index} className="bg-white p-4 border-indigo-100 border rounded-lg shadow-md flex flex-col items-center hover:scale-110 transition duration-500">
-            <p className="text-lg font-bold my-4">{item.title}</p>
+            <p className="text-lg font-bold my-2">{item.title}</p>
             <div className="grid grid-cols-3 gap-4">
               {item.img1 && (
-                <div className="flex flex-col items-center p-2  rounded-lg">
+                <div className="flex flex-col items-center p-2 rounded-lg">
                   <img
                     src={item.img1}
                     alt="Skill 1"
                     className="w-12 h-12 mb-2"
                   />
-                  <p className="text-sm font-semibold">{item.item1}</p>
+                  <p className="text-sm text-center font-semibold">{item.item1}</p>
                 </div>
               )}
               {item.img2 && (
@@ -29,7 +29,7 @@ export default function MySkills() {
                     alt="Skill 2"
                     className="w-12 h-12 mb-2"
                   />
-                  <p className="text-sm font-semibold">{item.item2}</p>
+                  <p className="text-sm text-center font-semibold">{item.item2}</p>
                 </div>
               )}
               {item.img3 && (
@@ -39,7 +39,7 @@ export default function MySkills() {
                     alt="Skill 3"
                     className="w-12 h-12 mb-2"
                   />
-                  <p className="text-sm font-semibold">{item.item3}</p>
+                  <p className="text-sm text-center font-semibold">{item.item3}</p>
                 </div>
               )}
               {item.img4 && (
@@ -49,7 +49,7 @@ export default function MySkills() {
                     alt="Skill 4"
                     className="w-12 h-12 mb-2"
                   />
-                  <p className="text-sm font-semibold">{item.item4}</p>
+                  <p className="text-sm text-center font-semibold">{item.item4}</p>
                 </div>
               )}
               {item.img5 && (
@@ -59,7 +59,7 @@ export default function MySkills() {
                     alt="Skill 5"
                     className="w-12 h-12 mb-2"
                   />
-                  <p className="text-sm font-semibold">{item.item5}</p>
+                  <p className="text-sm text-center font-semibold">{item.item5}</p>
                 </div>
               )}
                 {item.img6 && (
@@ -69,7 +69,7 @@ export default function MySkills() {
                     alt="Skill 6"
                     className="w-12 h-12 mb-2"
                   />
-                  <p className="text-sm font-semibold">{item.item6}</p>
+                  <p className="text-sm text-center font-semibold">{item.item6}</p>
                 </div>
               )}
                 {item.img7 && (
@@ -79,7 +79,7 @@ export default function MySkills() {
                     alt="Skill 7"
                     className="w-12 h-12 mb-2"
                   />
-                  <p className="text-sm font-semibold">{item.item7}</p>
+                  <p className="text-sm text-center font-semibold">{item.item7}</p>
                 </div>
               )}
             </div>

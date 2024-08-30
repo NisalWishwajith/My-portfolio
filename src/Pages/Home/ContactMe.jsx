@@ -28,7 +28,7 @@ export default function ContactMe() {
     <section id="Contact" className="contact--section">
       <div>
         
-        <h2>Contact Me</h2>
+        <h2 className="contact--heading">Contact Me</h2>
         <p className="text-lg">
           You can contact me through the form below or by sending me an email
         </p>
@@ -72,11 +72,12 @@ export default function ContactMe() {
         </label>
         <div>
           {/* set submit button to send email */}
-          <input type="submit" value="submit" className="btn btn-primary contact--form--btn" />
+          <input type="submit" value="Send" className="btn btn-primary contact--form--btn" />
           {/* <button className="btn btn-primary contact--form--btn">Submit</button> */}
         </div>
         <p> OR </p>
-        <p className="my-5"> Email to <a href="mailto:wishwajithnisal@gmail.com" className="underline text-indigo-600"> wishwajithnisal@gmail.com </a> </p>
+        <p className="mt-5 text-lg"> Email : <a href="mailto:wishwajithnisal@gmail.com" className="underline text-indigo-600"> wishwajithnisal@gmail.com </a> </p>
+        <p className="text-lg"> Phone : <a href="tel:+94715714175" className="underline text-indigo-600"> +94 71 571 4175 </a> </p>      
       </form>
     </section>
   );

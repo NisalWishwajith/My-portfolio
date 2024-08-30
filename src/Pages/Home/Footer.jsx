@@ -33,7 +33,7 @@ function Footer() {
                 to="MyPortfolio"
                 className="text-md"
               >
-                Portfolio
+                Projects
               </Link>
             </li>
             <li>
@@ -64,7 +64,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="footer--social--icon">
+        <div className="footer--social--icon lg:mt-0 mt-10">
           <ul>
             <li>
               <a

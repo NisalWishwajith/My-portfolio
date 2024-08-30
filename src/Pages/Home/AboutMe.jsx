@@ -7,7 +7,7 @@ export default function AboutMe() {
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
       
-          <h1 className="skills-section--heading">About Me</h1>
+          <h1 className="skills--section--heading">About Me</h1>
           <p className="hero--section-description text-justify">
           I am a 3rd-year student at the University of Colombo School of Computing with a strong 
           interest in DevOps engineering and Web development. I have solid skills in Linux, Git, MySQL, 

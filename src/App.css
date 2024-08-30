@@ -143,6 +143,16 @@ h2 {
   display: flex;
   align-items: flex-start;
 }
+.section--title1 {
+  color: var(--heading-color);
+  font-size: 25px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-start;
+}
 /* Portfolio, Testimonial & Contact Me */
 .sub--title {
   color: var(--heading-color);
@@ -229,6 +239,10 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+}
+.hero--section-description1{
+  font-size: 20px;
+  color:#666666;
 }
 .hero--section--img {
   display: flex;
@@ -330,7 +344,7 @@ h2 {
   padding: 112px 85px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 30px;
 }
 .portfolio--container-box {
   display: flex;
@@ -350,6 +364,9 @@ h2 {
   justify-content: center;
   gap: 42.6px;
   width: 100%;
+}
+.portfolio--section--heading{
+  font-size: 30px;
 }
 .portfolio--section--img {
   border-radius: 8px;
@@ -380,6 +397,7 @@ h2 {
 }
 .portfolio--section--title {
   color: var(--heading-color);
+  font-weight: 600;
 }
 .portfolio--link {
   text-decoration: none;
@@ -446,6 +464,9 @@ h2 {
   text-align: center;
   gap: 64px;
   
+}
+.contact--heading{
+  font-size: 30px;
 }
 .contact--form--container {
   display:grid;
@@ -606,12 +627,21 @@ input[type="checkbox"] {
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
-    padding-bottom: 70px;
+    padding:70px 50px;
   }
   .hero--section--title,
-  .hero--section-description,
+  .hero--section-description1,
   .footer--content {
     text-align: center;
+  }
+
+  .hero--section-description1{
+    line-height: 23px;
+  }
+
+  .hero--section-description{
+    font-size: 18px;
+    line-height: 26px;
   }
   .skills--section--container,
   .about--section,
@@ -634,16 +664,17 @@ input[type="checkbox"] {
   }
   .skills--section,
   .testimonial--section,
-  .contact--section,
   .footer--container {
     gap: 20px;
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  .contact--section{
+    padding:70px 30px;
+  }
   .about--section {
     gap: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding:30px 40px;
   }
   .testimonial--section--card {
     padding: 25px;
@@ -673,6 +704,13 @@ input[type="checkbox"] {
   .divider {
     margin: 20px;
   }
+
+  .portfolio--section {
+   
+    padding: 112px 40px;
+    
+  }
+
 }
 
 /* Hamburger menu  */

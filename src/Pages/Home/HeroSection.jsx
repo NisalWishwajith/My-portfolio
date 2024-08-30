@@ -10,7 +10,7 @@ export default function HeroSection() {
             <br />     
             Nisal Wishwajith
           </h1>
-          <p className="section--title">
+          <p className="section--title1">
             <Typewriter
               options={{
                 strings: ["I am Web Developer", "I am DevOps Engineer"],
@@ -22,7 +22,7 @@ export default function HeroSection() {
               }}
             />
           </p>
-          <p className="hero--section-description">
+          <p className="hero--section-description1">
             Transforming ideas into resilient, high-performance web applications.
           </p>
         </div>

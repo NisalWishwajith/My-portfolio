@@ -14,8 +14,7 @@
       "item6": "Tailwind",
       "img7": "./img/nextui.svg",
       "item7": "Next UI",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Front-End"
     },
     {
       "id": "2",
@@ -25,18 +24,10 @@
       "item2": "Springboot",
       "img3": "./img/javascript.svg",
       "item3": "JavaScript",
-      "title": "Back-End / Programming ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Back-End / Programming "
     },
     {
       "id": "3",
-      "img1": "./img/figma.png",
-      "item1": "Figma",  
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "4",
       "img1": "./img/git.png",
       "item1": "Git",
       "img2": "./img/docker.webp",
@@ -45,8 +36,39 @@
       "item3": "Linux",
       "img4": "./img/github.png",
       "item4": "Github",
-      "title": "DevOps",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "DevOps"
+    },
+    {
+      "id":"4",
+      "img1": "./img/mysql.png",
+      "item1": "MySQL",
+      "img2": "./img/mongodb.png",
+      "item2": "MongoDB", 
+      "title": "Database Management"
+    },
+    {
+      "id":"5",
+      "img1": "./img/photoshop.png",
+      "item1": "Photoshop",
+      "img2": "./img/figma.png",
+      "item2": "Figma", 
+      "title": "Designing"
+    },
+    {
+      "id":"6",
+      "img1": "./img/communication.png",
+      "item1": "Communication",
+      "img2": "./img/team.png",
+      "item2": "Team Work", 
+      "img3": "./img/adaptability.png",
+      "item3": "Adaptability",
+      "img4": "./img/attention.png",
+      "item4": "Attention to Detail",
+      "img5": "./img/learning.png",
+      "item5": "Fast Learning",
+      "img6": "./img/timemanagement.png",
+      "item6": "Time Management",
+      "title": "Other Skills"
     }
   ],
   "portfolio": [
@@ -54,21 +76,21 @@
       "id": "1",
       "src": "./img/project1.png",
       "title": "MedSupplyX",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "MedsupplyX facilitates medicine orders between pharmacies and suppliers, integrating inventory management for efficiency.",
       "link": "https://github.com/Ravindu62/MedSupplyX"
     },
     {
       "id": "2",
       "src": "./img/project2.png",
       "title": "Aetha",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Aetha is a digital content publishing platform for readers where writers can upload digital contents.",
       "link": "https://github.com/Project-AETHA/aetha-backend"
     },
     {
       "id": "3",
       "src": "./img/project3.png",
-      "title": "Empower Laptop Reparing Shop",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "INpower Laptop Reparing Shop",
+      "description": "INpower is a specialized laptop repair shop offering a wide range of services to fix and maintain laptops.",
       "link": "https://github.com/INpower-laptop/inpower-portfolio"
     }
   ],
