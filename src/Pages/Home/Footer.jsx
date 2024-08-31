@@ -112,7 +112,7 @@ function Footer() {
             </li>
             <li>
   <a
-    href="https://wa.me/+94715714715"
+    href="https://wa.me/+94715714175"
     className="navbar--content"
     target="_blank"
     rel="noreferrer"
