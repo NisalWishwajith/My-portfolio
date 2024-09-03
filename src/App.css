@@ -624,7 +624,6 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1024px) {
-
   .btn-outline-primary {
     display: none;
   }
@@ -662,6 +661,9 @@ input[type="checkbox"] {
   .hero--section--content,
   .hero--section--content--box {
     align-items: center;
+  }
+  .navbar {
+    padding: 20px 25px 10px;
   }
   .portfolio--container-box {
     gap: 30px;
@@ -744,9 +746,7 @@ input[type="checkbox"] {
     display: flex;
     z-index: 200;
   }
-  .navbar--items {
-    display: flex;
-  }
+ 
   .navbar--items {
     position: absolute;
     display: flex;
