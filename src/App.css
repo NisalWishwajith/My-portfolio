@@ -246,6 +246,7 @@ h2 {
 }
 .hero--section--img {
   display: flex;
+  padding:0px 20px 0px 20px;
 }
 .hero--section--img > img {
   width: 100%;
@@ -587,13 +588,14 @@ input[type="checkbox"] {
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
   .hero--section--title {
-    font-size: 68px;
-    line-height: 70px;
+    font-size: 55px;
+    line-height: 60px;
   }
   .skills--section--title {
     font-size: 28px;
     line-height: 40px;
   }
+
 }
 
 @media only screen and (max-width: 1600px) {
@@ -618,16 +620,18 @@ input[type="checkbox"] {
     font-size: 17.333px;
     line-height: 27px;
   }
+
 }
 
 @media only screen and (max-width: 1024px) {
+
   .btn-outline-primary {
     display: none;
   }
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
-    padding:70px 50px;
+    padding:70px 30px;
   }
   .hero--section--title,
   .hero--section-description1,

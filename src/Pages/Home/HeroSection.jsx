@@ -6,8 +6,8 @@ export default function HeroSection() {
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color"> Hi, I am </span>{" "}         
-            <br />     
+            <span className="hero--section-title--color"> Hi, I am </span>{" "}
+            <br />
             Nisal Wishwajith
           </h1>
           <p className="section--title1">
@@ -38,6 +38,7 @@ export default function HeroSection() {
       <div className="hero--section--img">
         <img src="./img/heroimg.png" alt="Hero Section" />
       </div>
+
     </section>
   );
 }
