@@ -1,0 +1,4 @@
+thenisal.tech {
+    tls wishwajithnisal@gmail.com
+    reverse_proxy portfolio:3000
+}
