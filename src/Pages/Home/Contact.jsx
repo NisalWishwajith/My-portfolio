@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import { MdEmail } from "react-icons/md";
