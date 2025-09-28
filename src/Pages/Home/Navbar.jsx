@@ -55,8 +55,8 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
-              className="navbar--content"
+              to="Hero"
+              className="navbar--content hover:text-indigo-600"
             >
               Home
             </Link>
@@ -69,8 +69,8 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
-              className="navbar--content"
+              to="About"
+              className="navbar--content hover:text-indigo-600"
             >
               About Me
             </Link>
@@ -83,8 +83,22 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="mySkills"
-              className="navbar--content"
+              to="Education"
+              className="navbar--content hover:text-indigo-600"
+            >
+              Education
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Skills"
+              className="navbar--content hover:text-indigo-600"
             >
               Skills
             </Link>
@@ -97,13 +111,13 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
+              to="Projects"
+              className="navbar--content hover:text-indigo-600"
             >
               Projects
             </Link>
           </li>
-          
+
         </ul>
       </div>
       <Link

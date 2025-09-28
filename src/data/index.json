@@ -2,76 +2,87 @@
   "skills": [
     {
       "id": "1",
-      "img1": "./img/html.svg",
-      "item1": "HTML",
-      "img2": "./img/css.svg", 
-      "item2": "CSS",
-      "img4": "./img/react.webp",
-      "item4": "React",
-      "img5": "./img/nextjs.svg",
-      "item5": "Next.js",
-      "img6": "./img/tailwindcss.png",
-      "item6": "Tailwind",
-      "img7": "./img/nextui.svg",
-      "item7": "Next UI",
-      "title": "Front-End"
+      "title": "Front-End",
+      "items": [
+        { "img": "./img/html.svg", "label": "HTML" },
+        { "img": "./img/css.svg", "label": "CSS" },
+        { "img": "./img/react.webp", "label": "React" },
+        { "img": "./img/nextjs.svg", "label": "Next.js" },
+        { "img": "./img/tailwindcss.png", "label": "Tailwind" },
+        { "img": "./img/nextui.svg", "label": "Next UI" }
+      ]
     },
     {
       "id": "2",
-      "img1": "./img/php.png",
-      "item1": "PHP",
-      "img2": "./img/springboot.png",
-      "item2": "Springboot",
-      "img3": "./img/javascript.svg",
-      "item3": "JavaScript",
-      "title": "Back-End / Programming "
+      "title": "Back-End / Programming",
+      "items": [
+        { "img": "./img/php.png", "label": "PHP" },
+        { "img": "./img/springboot.png", "label": "Springboot" },
+        { "img": "./img/javascript.svg", "label": "JavaScript" }
+      ]
     },
     {
       "id": "3",
-      "img1": "./img/git.png",
-      "item1": "Git",
-      "img2": "./img/docker.webp",
-      "item2": "Docker",
-      "img3": "./img/linux.svg",
-      "item3": "Linux",
-      "img4": "./img/github.png",
-      "item4": "Github",
-      "title": "DevOps"
+      "title": "DevOps Tools",
+      "items": [
+        { "img": "./img/docker.webp", "label": "Docker" },
+        { "img": "./img/linux.svg", "label": "Linux" },
+        { "img": "./img/bash.png", "label": "Bash Scripting" },
+        { "img": "./img/podman.png", "label": "Podman" },
+        { "img": "./img/azure.png", "label": "Microsoft Azure" },
+        { "img": "./img/cloudflare.png", "label": "Cloudflare" }
+      ]
     },
     {
-      "id":"4",
-      "img1": "./img/mysql.png",
-      "item1": "MySQL",
-      "img2": "./img/mongodb.png",
-      "item2": "MongoDB", 
-      "title": "Database Management"
+      "id": "4",
+      "title": "Database Management",
+      "items": [
+        { "img": "./img/mysql.png", "label": "MySQL" },
+        { "img": "./img/mongodb.png", "label": "MongoDB" },
+        { "img": "./img/mariadb.png", "label": "MariaDB" }
+      ]
     },
     {
-      "id":"5",
-      "img1": "./img/photoshop.png",
-      "item1": "Photoshop",
-      "img2": "./img/figma.png",
-      "item2": "Figma", 
-      "title": "Designing"
+      "id": "5",
+      "title": "Designing",
+      "items": [
+        { "img": "./img/photoshop.png", "label": "Photoshop" },
+        { "img": "./img/figma.png", "label": "Figma" },
+        { "img": "./img/canva.png", "label": "Canva" }
+      ]
     },
     {
-      "id":"6",
-      "img1": "./img/communication.png",
-      "item1": "Communication",
-      "img2": "./img/team.png",
-      "item2": "Team Work", 
-      "img3": "./img/adaptability.png",
-      "item3": "Adaptability",
-      "img4": "./img/attention.png",
-      "item4": "Attention to Detail",
-      "img5": "./img/learning.png",
-      "item5": "Fast Learning",
-      "img6": "./img/timemanagement.png",
-      "item6": "Time Management",
-      "title": "Other Skills"
+      "id": "6",
+      "title": "SCM & VCS",
+      "items": [
+        { "img": "./img/git.png", "label": "Git" },
+        { "img": "./img/tortoisegit.png", "label": "TortoiseGit" },
+        { "img": "./img/github.png", "label": "Github" }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Other Tools",
+      "items": [
+        { "img": "./img/nagios.png", "label": "Nagios" },
+        { "img": "./img/xshell.png", "label": "Xshell" },
+        { "img": "./img/xftp.png", "label": "Xftp" }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Other Skills",
+      "items": [
+        { "img": "./img/communication.png", "label": "Communication" },
+        { "img": "./img/team.png", "label": "Team Work" },
+        { "img": "./img/adaptability.png", "label": "Adaptability" },
+        { "img": "./img/attention.png", "label": "Attention to Detail" },
+        { "img": "./img/learning.png", "label": "Fast Learning" },
+        { "img": "./img/timemanagement.png", "label": "Time Management" }
+      ]
     }
   ],
-  "portfolio": [
+  "projects": [
     {
       "id": "1",
       "src": "./img/project1.png",
@@ -92,32 +103,43 @@
       "title": "INpower Laptop Reparing Shop",
       "description": "INpower is a specialized laptop repair shop offering a wide range of services to fix and maintain laptops.",
       "link": "https://github.com/INpower-laptop/inpower-portfolio"
+    },
+    {
+      "id": "4",
+      "src": "./img/project4.png",
+      "title": "Roi-Innovators",
+      "description": "ROI Innovator is an online service provider specializing in helping businesses grow through custom web & mobile app design, social media management etc.",
+      "link": "https://github.com/NisalWishwajith/Roi-Innovator"
+    },
+    {
+      "id": "5",
+      "src": "./img/project5.png",
+      "title": "Emvidence - NG",
+      "description": "Emvidence-NG is a scalable API-driven platform that provides a comprehensive suite of tools to support digital forensic investigators.",
+      "link": "https://github.com/Raviyax/EmvidenceNG"
     }
   ],
-  "testimonial": [
+  "education": [
     {
       "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "year": "2007 - 2020",
+      "img": "./img/dharmapala.png",
+      "degree": "GCE O/L & A/L",
+      "institute": "Dharmapala Vidyalaya, Pannipitiya"
     },
     {
       "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "year": "2020 - 2022",
+      "img": "./img/aquinas.png",
+      "degree": "Diploma in English Language and Literature",
+      "institute": "Aquinas College of Higher Studies"
     },
     {
       "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "year": "2022 - 2026",
+      "img": "./img/ucsc.png",
+      "degree": "Bsc (Hons) in Information Systems",
+      "institute": "University of Colombo School of Computing "
     }
   ]
 }

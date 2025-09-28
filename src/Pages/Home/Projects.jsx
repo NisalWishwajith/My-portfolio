@@ -1,17 +1,17 @@
 import data from "../../data/index.json";
 
-export default function MyPortfolio() {
+export default function Projects() {
   return (
-    <section className="portfolio--section" id="MyPortfolio">
+    <section className="portfolio--section" id="Projects">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h2 className="portfolio--section--heading"> My Projects </h2>
+          <h2 className="portfolio--section--heading lg:text-[50px]"> Projects </h2>
         </div>
         <div>
           <a href="https://github.com/NisalWishwajith" target="_blank">
-          <button className="bg-indigo-600 text-sm border border-indigo-600 px-6 py-3 rounded-md hover:bg-white hover:border hover:border-indigo-600 hover:!text-indigo-600 transition transform duration-300 !text-white">
-            Visit My GitHub
-          </button>
+            <button className="bg-indigo-600 text-sm border border-indigo-600 px-6 py-3 rounded-md hover:bg-white hover:border hover:border-indigo-600 hover:!text-indigo-600 transition transform duration-300 !text-white">
+              Visit My GitHub
+            </button>
           </a>
         </div>
 
@@ -19,7 +19,7 @@ export default function MyPortfolio() {
 
       </div>
       <div className="portfolio--section--container">
-        {data?.portfolio?.map((item, index) => (
+        {data?.projects?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
@@ -27,7 +27,7 @@ export default function MyPortfolio() {
             <div className="portfolio--section--card--content">
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
+                <p className="text-md text-justify min-h-[100px]">{item.description}</p>
               </div>
               <a href={item.link} target="_blank">
                 <p className="text-sm portfolio--link">
