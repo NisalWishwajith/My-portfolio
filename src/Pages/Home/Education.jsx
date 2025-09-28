@@ -3,21 +3,17 @@ import data from "../../data/index.json";
 export default function Education() {
   return (
     <section className="relative bg-white py-12 overflow-hidden" id="Education">
-      {/* Background Video */}
       <video
         autoPlay
         loop
         muted
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
-        <source src="./img/herobackground.mov" type="video/mp4"/>
+        <source src="./img/herobackground.mov" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <div className="absolute top-0 left-0 w-full h-full bg-white/20 z-10"></div>
 
-      {/* Optional overlay for readability */}
-      <div className="absolute top-0 left-0 w-full h-full bg-white/70 z-10"></div>
-
-      {/* Content on top */}
       <div className="relative z-20 container mx-auto">
         <h2 className="lg:text-[50px] md:text-4xl font-bold text-center mb-10">
           Education
