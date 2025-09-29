@@ -29,7 +29,7 @@ export default function Hero() {
           <h1 className="hero--section--title">
             <span className="hero--section-title--color"> Hi, I am </span>
             <br />
-            Nisal Wishwajith
+            Nisal Wishwajith Peiris
           </h1>
           <p className="section--title1">
             <Typewriter
