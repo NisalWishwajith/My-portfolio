@@ -73,7 +73,6 @@ export default function Contact() {
         <p> OR </p>
         <div className="space-y-4">
           <Link
-            // to="https://mail.google.com/mail/?view=cm&fs=1&to=wishwajithnisal@gmail.com"
             to={`mailto:wishwajithnisal@gmail.com`}
             target='_blank'
             className="flex justify-center items-center gap-3 px-6 py-2 rounded-lg bg-red-50 text-red-700 font-medium border border-red-500 hover:bg-red-500 hover:text-white transition duration-300"
@@ -83,7 +82,7 @@ export default function Contact() {
           </Link>
 
           <Link
-            to="tel:+94715714175"
+            to={`tel:+94715714175`}
             target='_blank'
             className="flex justify-center items-center gap-3 px-6 py-2 rounded-lg bg-green-50 text-green-700 font-medium border border-green-500 hover:bg-green-500 hover:text-white transition duration-300"
           >
