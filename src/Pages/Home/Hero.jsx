@@ -14,8 +14,8 @@ export default function Hero() {
 
       // Trigger actual download
       const link = document.createElement("a");
-      link.href = "./cv/cv.pdf";
-      link.download = "cv.pdf";
+      link.href = "./cv/Nisal_Wishwajith_Devops.pdf";
+      link.download = "Nisal_Wishwajith_Devops.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
