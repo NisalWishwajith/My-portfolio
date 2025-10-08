@@ -15,7 +15,7 @@ export default function Education() {
       <div className="absolute top-0 left-0 w-full h-full bg-white/20 z-10"></div>
 
       <div className="relative z-20 container mx-auto">
-        <h2 className="lg:text-[50px] md:text-4xl font-bold text-center mb-10">
+        <h2 className="lg:text-[50px] md:text-4xl text-[35px] font-bold text-center mb-10">
           Education
         </h2>
         <div className="grid gap-8 md:grid-cols-3 px-10 md:px-20">

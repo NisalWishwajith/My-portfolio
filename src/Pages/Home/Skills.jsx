@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <section className="py-8 skills--section" id="Skills">
       <div className="text-center mb-8">
-        <h2 className="lg:text-[50px] font-bold"> Skills </h2>
+        <h2 className="lg:text-[50px] font-bold md:text-4xl text-[35px]"> Skills </h2>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-10 md:px-20">
