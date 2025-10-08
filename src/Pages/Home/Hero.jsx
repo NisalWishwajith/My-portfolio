@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Typewriter from "typewriter-effect";
-import { MdOutlineMailOutline } from "react-icons/md";
+import { FaDownload, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   const [downloading, setDownloading] = useState(false);
@@ -34,7 +35,7 @@ export default function Hero() {
           <p className="section--title1">
             <Typewriter
               options={{
-                strings: ["I am Web Developer", "I am DevOps Engineer"],
+                strings: ["I am a Web Developer", "I am a DevOps Engineer"],
                 autoStart: true,
                 loop: true,
                 delay: 100,
@@ -57,20 +58,26 @@ export default function Hero() {
           >
             {downloading ? (
               <span className="flex items-center gap-2">
-                Downloading
                 <span className="animate-pulse inline-block w-3 h-3 bg-white rounded-full"></span>
+                Downloading
               </span>
             ) : (
-              "Download CV"
+              <span className="flex items-center gap-2">
+                <FaDownload size={20} />
+                Download CV
+              </span>
             )}
           </button>
 
           {/* Github button */}
-          <a href="https://github.com/NisalWishwajith" target="_blank" rel="noreferrer">
-            <button className="btn border text-indigo-600 border-indigo-600 hover:shadow-md hover:opacity-85">
-              View Github
+          <Link to="https://github.com/NisalWishwajith" target="_blank" rel="noreferrer">
+            <button className="btn border text-indigo-600 border-indigo-600 transition-all duration-300 ease-in-out hover:bg-indigo-50 hover:shadow-md">
+              <span className="flex items-center gap-2">
+                <FaGithub size={20} />
+                View Github
+              </span>
             </button>
-          </a>
+          </Link>
         </div>
       </div>
 

@@ -6,20 +6,17 @@ export default function About() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-
           <h1 className="skills--section--heading"> About Me </h1>
           <p className="hero--section-description text-justify">
-            I am a 3rd-year student at the University of Colombo School of Computing with a strong
-            interest in DevOps engineering and Web development. I have solid skills in Linux, Git, MySQL,
-            and Bash as DevOps and Frontend as well as Backend development skills which
-            I've applied in various projects.
+            I’m a 4th-year student at the University of Colombo School of Computing with a strong passion
+            for DevOps engineering. I enjoy working with technologies such as Linux, Git, MySQL, and Bash to
+            build efficient and reliable systems. Over the years, I’ve also developed strong implementation skills
+            that help me create complete and well-structured projects.
           </p>
           <p className="hero--section-description text-justify">
-            I'm eager to secure a DevOps engineer internship where I
-            can further develop my skills. I enjoy working in teams, learning new technologies, and finding
-            efficient solutions to problems.
+            Beyond deployment, I explore new tools, automation, and smarter ways to solve problems. I value
+            teamwork and impactful solutions.
           </p>
-
         </div>
       </div>
     </section>
