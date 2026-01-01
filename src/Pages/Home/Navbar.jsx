@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar z-50 ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.png" className="w-28" alt="Logoipsum" />
+        <img src="./img/logo.png" className="w-28" alt="Logo" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -103,6 +103,20 @@ function Navbar() {
               Skills
             </Link>
           </li>
+                    <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Achievements"
+              className="navbar--content hover:text-indigo-600"
+            >
+              Achievements
+            </Link>
+          </li>
           <li>
             <Link
               onClick={closeMenu}
@@ -117,7 +131,6 @@ function Navbar() {
               Projects
             </Link>
           </li>
-
         </ul>
       </div>
       <Link

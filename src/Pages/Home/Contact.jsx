@@ -68,7 +68,7 @@ export default function Contact() {
           />
         </label>
         <div>
-          <input type="submit" value="Send" className="btn btn-primary contact--form--btn" />
+          <input type="submit" value="Send Message" className="btn btn-primary w-full contact--form--btn" />
         </div>
         <p> OR </p>
         <div className="space-y-4">

@@ -141,5 +141,28 @@
       "degree": "Bsc (Hons) in Information Systems",
       "institute": "University of Colombo School of Computing "
     }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "link": "https://www.credly.com/badges/3a0cb560-9d88-4bb6-b4d7-ba874442da70/linked_in_profile",
+      "img": "./img/intro-cloud.png",
+      "degree": "Introduction to Cloud 101",
+      "institute": "Amazon Web Services (AWS)"
+    },
+    {
+      "id": "2",
+      "link": "https://www.credly.com/badges/618f7ead-9ed6-43e7-8394-f12a75ffa28f/linked_in_profile",
+      "img": "./img/oci.png",
+      "degree": "OCI Foundations Associate 2025",
+      "institute": "Oracle University"
+    },
+    {
+      "id": "3",
+      "link": "https://www.credly.com/badges/8d79c58e-761c-4fe4-be7e-eb6c5a3a1477/linked_in_profile",
+      "img": "./img/intro-linux.png",
+      "degree": "LFS101: Introduction to Linux",
+      "institute": "The Linux Foundation"
+    }
   ]
 }
