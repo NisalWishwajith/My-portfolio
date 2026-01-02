@@ -8,7 +8,7 @@ export default function About() {
         <div className="hero--section--content">
           <h1 className="skills--section--heading"> About Me </h1>
           <p className="hero--section-description text-justify">
-            I’m a 4th-year student at the University of Colombo School of Computing with a strong passion
+            I’m a 4th-year undergraduate student at the University of Colombo School of Computing with a strong passion
             for DevOps engineering. I enjoy working with technologies such as Linux, Git, MySQL, and Bash to
             build efficient and reliable systems. Over the years, I’ve also developed strong implementation skills
             that help me create complete and well-structured projects.
