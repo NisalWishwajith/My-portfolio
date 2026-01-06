@@ -82,7 +82,7 @@ export default function Hero() {
       </div>
 
       <div className="hero--section--img">
-        <img src="./img/heroimg.png" alt="Hero Section" />
+        <img src="./img/heroimg.png" alt="Nisal Wishwajith – Devops Engineer and DevOps Engineer" />
       </div>
     </section>
   );
