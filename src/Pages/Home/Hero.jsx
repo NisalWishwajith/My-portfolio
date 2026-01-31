@@ -15,8 +15,8 @@ export default function Hero() {
 
       // Trigger actual download
       const link = document.createElement("a");
-      link.href = "./cv/Nisal_Wishwajith_Devops.pdf";
-      link.download = "Nisal_Wishwajith_Devops.pdf";
+      link.href = "./cv/Nisal_Wishwajith_Devops_Engineer.pdf";
+      link.download = "Nisal_Wishwajith_Devops_Engineer.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -32,10 +32,10 @@ export default function Hero() {
             <br />
             Nisal Wishwajith
           </h1>
-          <p className="section--title1">
+          <div className="section--title1">
             <Typewriter
               options={{
-                strings: ["I am a Web Developer", "I am a DevOps Engineer"],
+                strings: ["I am a DevOps Engineer", "I am a System Engineer", "I am a SRE", "I am a Cloud Engineer", "I am a Automation Engineer", "I am a Web Developer"],
                 autoStart: true,
                 loop: true,
                 delay: 100,
@@ -43,9 +43,9 @@ export default function Hero() {
                 pauseFor: 2000,
               }}
             />
-          </p>
+          </div>
           <p className="hero--section-description1">
-            Transform ideas into resilient, high-performance web applications.
+            Build Scalable, Reliable, Automated infrastructure for applications.
           </p>
         </div>
 

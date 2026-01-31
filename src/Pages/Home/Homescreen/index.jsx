@@ -1,5 +1,6 @@
 import Hero from "../Hero";
 import About from "../About";
+import Experience from "../Experience";
 import Education from "../Education";
 import Contact from "../Contact";
 import Footer from "../Footer";
@@ -37,6 +38,7 @@ export default function Home() {
         <div className="w-full max-w-screen-2xl">
           <Hero />
           <About />
+          <Experience />
           <Education />
           <Skills />
           <Achievements />

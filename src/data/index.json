@@ -164,5 +164,17 @@
       "degree": "LFS101: Introduction to Linux",
       "institute": "The Linux Foundation"
     }
+  ],
+  "experience": [
+  {
+    "title": "Associate DevOps Engineer",
+    "company": "Omobio (Pvt) Ltd – Bambalapitiya, Sri Lanka",
+    "responsibilities":"Handling Application issues in Telcom domain product. Then Maintain Gihub while Implementing releases to production environments using XFTP and XSHELL. In addition to that, Contributing to Development using PHP YII and EST JS. Also leading interners to enhance their skills."
+  },
+  {
+    "title": "Trainee DevOps Engineer",
+    "company": "Omobio (Pvt) Ltd – Bambalapitiya, Sri Lanka",
+    "responsibilities": "Product installations to testbed environments including Containerization with Docker and Podman, Managing Linux-based infrastructure, Implementing monitoring solutions using Nagios. Then Assisted to handle application issues in production environments"
+  }
   ]
 }
