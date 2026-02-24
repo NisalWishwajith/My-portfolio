@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import { MdEmail } from "react-icons/md";
@@ -9,6 +9,12 @@ export default function Contact() {
 
   const form = useRef();
 
+  const [popup, setPopup] = useState({
+    show: false,
+    message: "",
+    success: true
+  });
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -18,10 +24,19 @@ export default function Contact() {
       })
       .then(
         () => {
-          alert('Your message was sent successfully. I will get back to you soon.');
+          setPopup({
+            show: true,
+            message: "Your message was sent successfully. Will get back to you soon.",
+            success: true
+          });
+          form.current.reset();
         },
         (error) => {
-          alert('Failed to send message Try Again or Send me email ("wishwajithnisal@gmail.com")', error.text);
+          setPopup({
+            show: true,
+            message: "Failed to send message. Please try again or send me an email.",
+            success: false
+          });
         },
       );
   };
@@ -91,6 +106,22 @@ export default function Contact() {
           </Link>
         </div>
       </form>
+
+      {popup.show && (
+        <div className={`fixed inset-0 flex items-center justify-center z-50 ${popup.success ? 'bg-neutral-800' : 'bg-black-500'} bg-opacity-90`}>
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+            <p className={`text-center text-lg ${popup.success ? 'text-indigo-800' : 'text-red-700'}`}>
+              {popup.message}
+            </p>
+            <button
+              onClick={() => setPopup({ ...popup, show: false })}
+              className="mt-4 w-full py-2 px-4 bg-indigo-800 text-white rounded hover:bg-transparent hover:text-indigo-800 hover:border border-indigo-800 transition duration-300"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
