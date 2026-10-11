@@ -120,7 +120,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://web.facebook.com/profile.php?id=100069813968886"
+                href="https://www.tiktok.com/@nisal.wishwajith"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
