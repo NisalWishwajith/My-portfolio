@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
+// import address icon
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 
 export default function Contact() {
@@ -99,10 +101,20 @@ export default function Contact() {
           <Link
             to={`tel:+94715714175`}
             target='_blank'
-            className="flex justify-center items-center gap-3 px-6 py-2 rounded-lg bg-green-50 text-green-700 font-medium border border-green-500 hover:bg-green-500 hover:text-white transition duration-300"
+            className="flex justify-center items-center gap-3 px-6 py-2 rounded-lg bg-green-50 text-green-700 font-medium border border-green-300 hover:bg-green-500 hover:text-white transition duration-300"
           >
             <FaPhone size={20} />
             +94 71 571 4175
+          </Link>
+
+
+          <Link
+            to={`https://maps.app.goo.gl/xLTZyZjJ7bKSss6Q7`}
+            target='_blank'
+            className="flex justify-center items-center gap-3 px-6 py-2 rounded-lg bg-yellow-50 text-yellow-700 font-medium border border-yellow-500 hover:bg-yellow-300 hover:text-black transition duration-300"
+          >
+            <FaMapMarkerAlt size={20} />
+            222/1, Athurugiriya Road, Kottawa, Pannipitiya, Sri Lanka
           </Link>
         </div>
       </form>

@@ -118,7 +118,21 @@ function Footer() {
                 />
               </a>
             </li>
-
+            <li>
+              <a
+                href="https://web.facebook.com/profile.php?id=100069813968886"
+                className="navbar--content"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/img/tiktok.svg"
+                  alt="Tiktok"
+                  width="23"
+                  height="23"
+                />
+              </a>
+            </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/nisal-wishwajith-163aa5314/"

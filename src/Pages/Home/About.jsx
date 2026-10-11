@@ -8,14 +8,12 @@ export default function About() {
         <div className="hero--section--content">
           <h1 className="skills--section--heading"> About Me </h1>
           <p className="hero--section-description text-justify">
-            I’m a 4th-year undergraduate student at the University of Colombo School of Computing with a strong passion
-            for DevOps engineering. I enjoy working with technologies such as Linux, Git, MySQL, and Bash to
-            build efficient and reliable systems. Over the years, I’ve also developed strong implementation skills
-            that help me create complete and well-structured projects.
-          </p>
-          <p className="hero--section-description text-justify">
-            Beyond deployment, I explore new tools, automation, and smarter ways to solve problems. I value
-            teamwork and impactful solutions.
+            DevOps Engineer with nearly 2 years of industry experience managing and supporting high-traffic SMS
+            Firewall platforms across 10+ telecom operator environments, including production, testbed, and dis
+            aster recovery systems. Skilled in Linux, System monitoring, Software Deployments,
+            Application Development and Root cause analysis. Passionate about automation and system reliabil
+            ity, with strong Problem-solving abilities, Teamwork skills, and commitment to continuous learning.
+            Outside work, I enjoy listening to music.
           </p>
         </div>
       </div>

@@ -32,10 +32,11 @@ export default function Hero() {
             <br />
             Nisal Wishwajith
           </h1>
-          <div className="section--title1">
+          <div className="section--title1 gap-2">
+            <span>I am a </span>
             <Typewriter
               options={{
-                strings: ["I am a DevOps Engineer", "I am a System Engineer", "I am a SRE", "I am a Cloud Engineer", "I am a Automation Engineer", "I am a Web Developer"],
+                strings: ["DevOps Engineer", "System Engineer", "SRE", "Cloud Engineer", "Web Developer"],
                 autoStart: true,
                 loop: true,
                 delay: 100,
@@ -82,7 +83,7 @@ export default function Hero() {
       </div>
 
       <div className="hero--section--img">
-        <img src="./img/heroimg.png" alt="Nisal Wishwajith – Devops Engineer and DevOps Engineer" />
+        <img src="./img/heroimg.png" alt="Nisal Wishwajith – DevOps Engineer" />
       </div>
     </section>
   );
